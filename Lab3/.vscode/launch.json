@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - WordCount",
+            "request": "launch",
+            "mainClass": "com.myschool.hadoop.WordCount",
+            "projectName": "hadoop"
+        }
+    ]
+}
