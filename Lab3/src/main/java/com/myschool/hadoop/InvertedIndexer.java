@@ -11,11 +11,24 @@ import org.apache.hadoop.mapreduce.lib.input.*;
 import org.apache.hadoop.mapreduce.lib.output.*;
 
 public class InvertedIndexer {
+    private static Set<String> initIgnoredWord() {
+        /**
+         * 这是用于初始化 "忽略字符"的函数,需要被忽略的词语通过 add 的方法加入 ignored_word 这个set
+         * 在map函数中将 先检查 一个词是否在 ignore_word中，如果在，则忽略
+         */
+        
+        Set<String> ignored = new HashSet<String>();
+        ignored.add("的");
 
+        return ignored;
+    }
     public static class Map extends Mapper<Object, Text, Text, Text> {
 
         private Text word = new Text();
+        private String wordtest = new String();
 
+        // Collection a = { "nihao", "haha" };
+        private Set<String> ignored_set = initIgnoredWord();
         @Override
         public void map(Object key, Text value, Mapper<Object, Text, Text, Text>.Context context)
                 throws IOException, InterruptedException {
@@ -23,8 +36,15 @@ public class InvertedIndexer {
             String fileName = fileSplit.getPath().getName();  //得到文件名
             Text fileName_lineOffset = new Text(fileName + "#" + key.toString());
             StringTokenizer itr = new StringTokenizer(value.toString());
+
+            
             for (; itr.hasMoreTokens();) {
-                word.set(itr.nextToken());
+                wordtest = itr.nextToken();
+                if(ignored_set.contains(wordtest)){
+                    continue;
+                }
+                word.set(wordtest);
+                
                 // filename_lineoffset: bookname#no
                 context.write(word, fileName_lineOffset);
             }
