@@ -187,12 +187,12 @@ HADOOP_HOME="/usr/hadoop/hadoop-2.9.2"
 <configuration>
     <property>
  	    <name>javax.jdo.option.ConnectionURL</name>
-   	    <value>jdbc:mysql://localhost:3306/sparksql?createDatabaseIfNotExist=true</value>
+   	    <value>jdbc:mysql://localhost:3306/sparksql?createDatabaseIfNotExist=true&amp;useSSL=false</value>
     </property>
    
     <property>
    	    <name>javax.jdo.option.ConnectionDriverName</name>
-        <value>com.mysql.jdbc.Driver</value>
+        <value>com.mysql.cj.jdbc.Driver</value>
     </property>
 
     <property>
@@ -222,8 +222,14 @@ cp /usr/share/java/mysql-connector-java-8.0.16.jar /usr/hive/hive-2.3.4/lib
 ```
 
 #### 5) 启动hive
+在首次启动 hive 时:需要初始化模式(init initSchema),我们使用的是mysql数据库,所以初始化的命令是:
+```shell
+bin/schematool -initSchema -dbType mysql
+```
+当有如下显示时,说明初始化完成
+![](picture/initSchema.png)
 
-在hive安装目录下，使用命令
+然后,在hive安装目录下，使用命令
 
 ```shell
 bin/hive
