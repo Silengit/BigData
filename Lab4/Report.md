@@ -169,7 +169,7 @@ export PATH=$PATH:$HIVE_HOME/bin
 
 #### 3) 设置配置文件
 
-进入/usr/hive/hive-2.3.4目录，使用命令
+进入/usr/hive/hive-2.3.4/conf目录，使用命令
 
 ```shell
 cp hive-env.sh.template hive-env.sh
@@ -238,6 +238,32 @@ bin/hive
 即可启动hive程序。需要注意的是，在启动hive之前，请确保hadoop、hbase、MySQL相关进程已启动。
 
 使用quit指令可退出hive。
+
+## 4. 实验内容
+
+### （1）在HBase中创建表Wuxia
+
+HBase提供了一个基于Ruby语法的命令行Shell，可以通过运行命令hbase shell来进入 Shell:
+
+```shell
+./bin/hbase shell
+```
+
+进入Shell模式后，通过以下命令建立表Wuxia
+
+```
+create 'Wuxia', 'Info'
+```
+
+其中‘Info’是列族名，今后我们可在其中添加列‘Word’和‘Avefrequency’表示单词和平均出现次数。
+
+### （2）通过MapReduce程序将每个词语及其对应的“平均出现次数”信息写入到HBase的表“Wuxia”中
+
+
+
+
+
+
 
 ## N. 实验中遇到的问题及解决思路
 
