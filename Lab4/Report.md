@@ -259,6 +259,71 @@ create 'Wuxia', 'Info'
 
 ### （2）通过MapReduce程序将每个词语及其对应的“平均出现次数”信息写入到HBase的表“Wuxia”中
 
+我们只需要修改Reduce过程，使其符合HBase的写入方法即可。这其中涉及Reduce类、main函数的改写。
+
+#### 1）Reduce类的改写
+
+在Reduce类的改写任务中，最大的差别在于，我们继承的父类是TableReducer而不是Reducer
+
+Replace:
+
+```Java
+public static class Reduce extends Reducer<Text, IntWritable, Text, Text>
+```
+
+To:
+
+```Java
+public static class Reduce extends TableReducer<Text, IntWritable, ImmutableBytesWritable>
+```
+
+从上面的代码中我们可以注意到，Reduce阶段输出的内容发生了改变。由原先的Text修改为ImmutableBytesWritable，因此我们在写入输出内容时也需要做相应的改动
+
+Replace:
+
+```Java
+context.write(Key_word, textValue);
+```
+
+To:
+
+```Java
+Put put = new Put(Bytes.toBytes(curWord));
+
+put.add(Bytes.toBytes("Info"), Bytes.toBytes("Word"), Bytes.toBytes(curWord));
+put.add(Bytes.toBytes("Info"), Bytes.toBytes("Avefrequency"), Bytes.toBytes(String.valueOf(average)));
+
+context.write(new ImmutableBytesWritable(Bytes.toBytes(curWord)), put);
+```
+
+其中Put类用于写入HBase的列族信息，两条put.add代码表示在列族"Info"下添加列"Word"和"Avefrequency"，列的内容分别为单词和平均出现次数。在写入Reduce过程的输出context.write时，我们写入put的相应列族信息，并将单词本身作为行索引。
+
+#### 2) main函数的改写
+
+首先，我们需要改变job的配置，由原先的默认配置修改为与HBase有关的配置：
+
+Replace:
+
+```Java
+Configuration conf = new Configuration();
+```
+
+To:
+
+```Java
+Configuration conf = HBaseConfiguration.create();
+```
+
+其次，我们改变job的Reduce方式，使用TableMapReduceUtil类中的方法，为job设定更新后的Reduce类
+
+Replace:
+
+```Java
+job.setReducerClass(mReduce.class);
+job.setOutputKeyClass(Text.class);
+job.setOutputValueClass(Text.class);
+```
+
 
 
 

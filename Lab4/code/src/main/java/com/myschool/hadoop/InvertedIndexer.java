@@ -242,12 +242,12 @@ public class InvertedIndexer {
         job.setCombinerClass(Combiner.class);
         job.setPartitionerClass(WordPartition.class);
 
-        job.setReducerClass(mReduce.class);
-        job.setOutputKeyClass(Text.class);
-        job.setOutputValueClass(Text.class);
+        // job.setReducerClass(mReduce.class);
+        // job.setOutputKeyClass(Text.class);
+        // job.setOutputValueClass(Text.class);
 
         FileInputFormat.addInputPath(job, new Path(args[0]));
-        FileOutputFormat.setOutputPath(job, new Path(args[1]));
+        // FileOutputFormat.setOutputPath(job, new Path(args[1]));
         // job.setOutputFormatClass(TableOutputFormat.class);
         job.waitForCompletion(true);
 
