@@ -324,11 +324,42 @@ job.setOutputKeyClass(Text.class);
 job.setOutputValueClass(Text.class);
 ```
 
+To:
 
+```Java
+TableMapReduceUtil.initTableReducerJob("Wuxia", hbaseReduce.class, job);
+```
 
+其中第一个参数"Wuxia"即是HBase中的表名。
 
+#### (3) 配置文件pom.xml修改
 
+在mvn的配置文件pom.xml中需要添加与HBase有关的配置如下
 
+```xml
+<dependency>
+    <groupId>org.apache.hbase</groupId>
+    <artifactId>hbase-client</artifactId>
+    <version>1.4.9</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.hbase</groupId>
+    <artifactId>hbase-server</artifactId>
+    <version>1.4.9</version>
+</dependency>
+```
+
+#### (4) 执行结果
+
+在这一步的测试中，仅使用样例中的两个武侠小说文档进行测试，测试结果MapReduce结果如下：
+
+![](picture/hbase_3.png)
+
+进入hbase的shell模式中，采用scan命令列出'Wuxia'表中的数据，结果截图如下
+
+![](picture/hbase_4.png)
+
+其中存在类似"\xE3\x81\x81"这样的编码，这种编码表示中文。在HBase的shell模式下，我们不能方便地查看中文字符，但我们仍可对这样的数据进行修改和操作。随着我们接下来的操作，我们可在其他地方看到这些编码对应的中文字符。
 
 ## N. 实验中遇到的问题及解决思路
 
@@ -338,5 +369,30 @@ job.setOutputValueClass(Text.class);
 
 ```shell
 chmod -R 777 /usr/hbase
+```
+
+### （2）运行MapReduce任务时出现"The auxService:mapreduce_shuffle does not exist"
+
+出现这种情况的原因是在配置文件中没有指定aux-services。解决方案为：在$HADOOP_HOME/etc/hadoop/yarn-site.xml中添加以下内容
+
+```xml
+<property>
+    <name>yarn.nodemanager.aux-services</name>
+    <value>mapreduce_shuffle</value>
+</property>
+```
+
+### （3）运行MapReduce任务时无法关联HBase中jar包
+
+如果没有在Hadoop配置文件中指定HBase的相关信息，则MapReduce任务无法定位到HBase中的jar包，解决方案是为HADOOP_CLASSPATH添加hbase中jar包的存放路径。在实际操作中，修改$HADOOP_HOME/etc/hadoop/hadoop-env.sh，添加如下内容：
+
+```sh
+for f in /usr/hbase/hbase-1.4.9/lib/*.jar; do
+  if [ "HADOOP_CLASSPATH" ]; then
+    export HADOOP_CLASSPATH=$HADOOP_CLASSPATH:$f
+  else
+    export HADOOP_CLASSPATH=$f
+  fi
+done
 ```
 
