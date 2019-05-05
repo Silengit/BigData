@@ -225,32 +225,55 @@ public class InvertedIndexer {
     public static void main(String[] args) throws Exception {
 
         // Configuration conf = new Configuration();
-        Configuration conf = HBaseConfiguration.create();
+        Configuration conf1 = HBaseConfiguration.create();
 
         // Job job = Job.getInstance(conf, "inverted index");
-        Job job = Job.getInstance(conf, "Inverted Hbase");
+        Job job1 = Job.getInstance(conf1, "Inverted Hbase");
 
         // new line
-        TableMapReduceUtil.initTableReducerJob("Wuxia", hbaseReduce.class, job);
+        TableMapReduceUtil.initTableReducerJob("Wuxia", hbaseReduce.class, job1);
 
-        job.setJarByClass(InvertedIndexer.class);
+        job1.setJarByClass(InvertedIndexer.class);
 
-        job.setMapperClass(Map.class);
-        job.setMapOutputKeyClass(Text.class);
-        job.setMapOutputValueClass(IntWritable.class);
+        job1.setMapperClass(Map.class);
+        job1.setMapOutputKeyClass(Text.class);
+        job1.setMapOutputValueClass(IntWritable.class);
 
-        job.setCombinerClass(Combiner.class);
-        job.setPartitionerClass(WordPartition.class);
+        job1.setCombinerClass(Combiner.class);
+        job1.setPartitionerClass(WordPartition.class);
 
         // job.setReducerClass(mReduce.class);
         // job.setOutputKeyClass(Text.class);
         // job.setOutputValueClass(Text.class);
 
-        FileInputFormat.addInputPath(job, new Path(args[0]));
+        FileInputFormat.addInputPath(job1, new Path(args[0]));
         // FileOutputFormat.setOutputPath(job, new Path(args[1]));
         // job.setOutputFormatClass(TableOutputFormat.class);
-        job.waitForCompletion(true);
 
-        System.exit(job.waitForCompletion(true) ? 0 : 1);
+	// job2
+	Configuration conf2 = new Configuration();
+
+        Job job2 = Job.getInstance(conf2, "Inverted File");
+
+        job2.setJarByClass(InvertedIndexer.class);
+
+        job2.setMapperClass(Map.class);
+        job2.setMapOutputKeyClass(Text.class);
+        job2.setMapOutputValueClass(IntWritable.class);
+
+        job2.setCombinerClass(Combiner.class);
+        job2.setPartitionerClass(WordPartition.class);
+
+        job2.setReducerClass(mReduce.class);
+        job2.setOutputKeyClass(Text.class);
+        job2.setOutputValueClass(Text.class);
+
+        FileInputFormat.addInputPath(job2, new Path(args[0]));
+        FileOutputFormat.setOutputPath(job2, new Path(args[1]));
+
+        // System.exit(job1.waitForCompletion(true) ? 0 : 1);
+	job1.waitForCompletion(true);
+	job2.waitForCompletion(true);
+
     }
 }
