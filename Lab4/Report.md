@@ -351,7 +351,15 @@ TableMapReduceUtil.initTableReducerJob("Wuxia", hbaseReduce.class, job);
 
 #### (4) 执行结果
 
-在这一步的测试中，仅使用样例中的两个武侠小说文档进行测试，测试结果MapReduce结果如下：
+在这一步的测试中，仅使用样例中的两个武侠小说文档进行测试，使用命令执行代码
+
+```shell
+hadoop jar hadoop-1.0-SNAPSHOT.jar com.myschool.hadoop.InvertedIndexer /exp3_sample_data /output
+```
+
+其中hadoop-1.0-SNAPSHOT.jar是打包后的java包，com.myshcool.hadoop.InvertedIndexer是执行的java模块，exp3_sample_data是hadoop集群上的输入目录，output是hadoop集群上的输出目录。
+
+测试结果MapReduce结果如下：
 
 ![](picture/hbase_3.png)
 
@@ -360,6 +368,10 @@ TableMapReduceUtil.initTableReducerJob("Wuxia", hbaseReduce.class, job);
 ![](picture/hbase_4.png)
 
 其中存在类似"\xE3\x81\x81"这样的编码，这种编码表示中文。在HBase的shell模式下，我们不能方便地查看中文字符，但我们仍可对这样的数据进行修改和操作。随着我们接下来的操作，我们可在其他地方看到这些编码对应的中文字符。
+
+Hadoop集群上的/output/part-r-00000文件是我们在本地保存的文件，查看文件内容如下：
+
+![](picture/hbase_5.png)
 
 ## N. 实验中遇到的问题及解决思路
 
