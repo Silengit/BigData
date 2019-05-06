@@ -373,6 +373,34 @@ Hadoop集群上的/output/part-r-00000文件是我们在本地保存的文件，
 
 ![](picture/hbase_5.png)
 
+### (3) 写一个java程序从上一步中读取hbase中的表"Wuxia",并把内容写入本地文件
+#### (1) 使用hbase的java api获取Wuxia内容
+首先需要定义HTable 需要的配置属性:共有两项,分别是
+
+```java
+conf.set("hbase.zookeeper.quorum", "localhost");
+conf.set("hbase.zookeeper.property.clientPort", "2181");
+```
+这种使用代码的方式和将配置写为xml配置文件的作用是相同的,
+
+其次,新建一个HTable对象,它需要上面定义的配置变量conf和要访问的表的名称,
+再新建Scan对象,它用来描述如何遍历表中的"行",即指定要扫描的区域,这里默认是遍历所有行,所以用它的默认构造函数即可.  
+
+然后调用HTable的getScanner方法,即可连接到表中的数据了,在遍历"行"的时,我们会得到"键值对(KeyValue)"类型的变量,它对外提供了getValue,getQualifier等方法使我们能获某一行中得具体内容,如"列名称","值"等等,  
+
+因为hbase在显示结果时,往往"一行"内容是多行显示的,比如某一个词语有属性"Avefrequency"和"Word",显示时会分两行显示,这两个属性的内容都用"getValue"获得,所以在记录时先判断"列名称",然后取值,
+
+最终将能得到表中所有内容.
+#### (2) 将上一步获得结果写入文件
+这一步是java io的过程,先用File对象来新建一个文件,
+```java
+File outputfile = new File(outFileName);
+```
+然后将FileWriter绑定到outputfile上
+```java
+Writer out = new FileWriter(outputfile);
+```
+最后用Writer的write方法就能将字符写入到文本文件中了,
 ## N. 实验中遇到的问题及解决思路
 
 ### （1）权限问题
@@ -407,4 +435,20 @@ for f in /usr/hbase/hbase-1.4.9/lib/*.jar; do
   fi
 done
 ```
-
+### (4) 在写hbase的java编程接口时,运行出现 Failed to detect a valid hadoop home directory 错误
+因为hadoop安装目录在单独的用户(即hadoop)文件夹下,而在其它用户目录下运行hbase的api,因为HADOOP_HOME这个变量没有设置,需要在程序运行中指定 hadoop_home 的位置,代码如下:
+```c++
+System.setProperty("hadoop.home.dir", "/home/hadoop/hadoop_installs/hadoop-2.9.2/");
+```
+### (5) 在写hbase的java编程接口时,运行出现 Hadoop “Unable to load native-hadoop library for your platform” warning
+这是一个warning,意味着$HADOOP_HOME/lib/native/libhadoop.so.1.0.0包是32位环境编译的,报出这个warning 是因为我们通常在64机器上运行,实际上这个warning 不影响hadoop的功能,如果要解决的话可以下载相应的源代码在64位下编译即可
+### (6)在上面的环境中,出现了log4j:WARN No appends could be found for logger (org.apache.hadoop.metrics2.lib.MutableMetricsFactory)
+出现这个warn说明需要为log4j这个日志框架 传递配置信息,因为它可以默认读取java项目main/resources下的配置文件,log4j.xml和log4j.properties都可以,如此项目所示,我新建了log4j.properties,里面可以控制 日志的 输出格式和日志输出的最低条件等信息,
+### (7)HADOOP在 running_job 处卡住
+经过查看日志,发现是namenode没有活动,即yarn在得到任务后并没有运行,原来是我的机器磁盘空间已经使用了90%,而yarn的磁盘使用警戒线就是90%,有两种办法,一个是清理磁盘,扩大可使用的空间,另一个是将yarn的磁盘使用上限调高,我用了后一种办法,配置文件yarn-site.xml中增加的配置项如下,将使用上线调到了98.5%: 
+```xml
+<property>
+        <name>yarn.nodemanager.disk-health-checker.max-disk-utilization-per-disk-percentage</name>
+        <value>98.5</value>
+</property>
+```

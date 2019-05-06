@@ -1,11 +1,11 @@
-com/myschool/hadoop/WordCount$Reduce.class
 com/myschool/hadoop/WordCount.class
-com/myschool/hadoop/InvertedIndexer$Map$WordCount.class
+com/myschool/hadoop/WordCount$Reduce.class
 com/myschool/hadoop/InvertedIndexer$WordPartition.class
-com/myschool/hadoop/InvertedIndexer$Map.class
+com/myschool/hadoop/InvertedIndexer$Map$WordCount.class
 com/myschool/hadoop/InvertedIndexer$hbaseReduce.class
-com/myschool/hadoop/InvertedIndexer$Combiner.class
+com/myschool/hadoop/InvertedIndexer$Map.class
 com/myschool/hadoop/InvertedIndexer.class
+com/myschool/hadoop/InvertedIndexer$Combiner.class
 com/myschool/hadoop/WordCount$Map.class
 com/myschool/hadoop/InvertedIndexer$mReduce.class
 com/myschool/hadoop/Ignore.class
