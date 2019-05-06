@@ -5,7 +5,7 @@ HBase和Hive的安装与使用
 | 姓名   | 学号      | 邮箱                       |
 | ------ | --------- | -------------------------- |
 | 陈昕元 | 161220018 | 161220018@smail.nju.edu.cn |
-| 陈翔   | 161220017 |                            |
+| 陈翔   | 161220017 | 161220017@smail.nju.edu.cn |
 | 陈亚栋 | 161220019 | 161220019@smail.nju.edu.cn |
 
 ## 1. 实验环境
@@ -332,7 +332,7 @@ TableMapReduceUtil.initTableReducerJob("Wuxia", hbaseReduce.class, job);
 
 其中第一个参数"Wuxia"即是HBase中的表名。
 
-#### (3) 配置文件pom.xml修改
+#### 3) 配置文件pom.xml修改
 
 在mvn的配置文件pom.xml中需要添加与HBase有关的配置如下
 
@@ -349,7 +349,7 @@ TableMapReduceUtil.initTableReducerJob("Wuxia", hbaseReduce.class, job);
 </dependency>
 ```
 
-#### (4) 执行结果
+#### 4) 执行结果
 
 在这一步的测试中，仅使用样例中的两个武侠小说文档进行测试，使用命令执行代码
 
@@ -374,7 +374,7 @@ Hadoop集群上的/output/part-r-00000文件是我们在本地保存的文件，
 ![](picture/hbase_5.png)
 
 ### (3) 写一个java程序从上一步中读取hbase中的表"Wuxia",并把内容写入本地文件
-#### (1) 使用hbase的java api获取Wuxia内容
+#### 1) 使用hbase的java api获取Wuxia内容
 首先需要定义HTable 需要的配置属性:共有两项,分别是
 
 ```java
@@ -391,7 +391,7 @@ conf.set("hbase.zookeeper.property.clientPort", "2181");
 因为hbase在显示结果时,往往"一行"内容是多行显示的,比如某一个词语有属性"Avefrequency"和"Word",显示时会分两行显示,这两个属性的内容都用"getValue"获得,所以在记录时先判断"列名称",然后取值,
 
 最终将能得到表中所有内容.
-#### (2) 将上一步获得结果写入文件
+#### 2) 将上一步获得结果写入文件
 这一步是java io的过程,先用File对象来新建一个文件,
 ```java
 File outputfile = new File(outFileName);
@@ -401,8 +401,73 @@ File outputfile = new File(outFileName);
 Writer out = new FileWriter(outputfile);
 ```
 最后用Writer的write方法就能将字符写入到文本文件中了,
-## N. 实验中遇到的问题及解决思路
 
+### (4) 在Hive Shell命令行操作创建表、导入数据、执行查询操作
+#### 1) 进入Hive Shell并创建表
+在之前的hive安装部分我们提到了如何进入hive，进入之后在Hive Shell中使用HiveQL创建表，
+
+```shell
+create table Wuxia(
+word STRING,
+count DOUBLE)
+row format delimited fields terminated by '\t'
+lines terminated by '\n';
+```
+
+这里我们必须显示指出行内分隔符和行间分割符，否则若与默认分隔符（比如行间的默认分隔符并不是'\n'）不一致的话会出现错误。
+
+#### 2) 将之前生成的本地文件导入表中
+HiveQL极大简化了导入过程，三行指令即可，
+
+```shell
+load data local inpath
+'/home/hadoop/Workspace/BigData/Lab4/result/wuxia.txt'
+into table Wuxia;
+```
+
+注意，这里我们使用的是绝对地址，具体运行时要视存储位置进行修改。
+
+#### 3) 使用查询语句发现感兴趣的结果
+经过上一步的操作，我们已经将数据导入表中，可以使用命令
+
+```shell
+select * from Wuxia;
+```
+
+来验证是否成功，这里我们省略。
+
+首先查询出现次数大于300的词语，使用命令，
+
+```shell
+select * from Wuxia where count > 300;
+```
+
+部分结果如下：
+
+![](picture/hive_1.png)
+
+然后查询出现次数最多的100个词语，使用命令,
+
+```shell
+select * from Wuxia sort by count desc limit 100;
+```
+
+MapReduce执行情况如下：
+
+![](picture/hive_2.png)
+
+部分运行结果如下：
+
+![](picture/hive_3.png)
+
+完整的运行结果请参见本目录下的query文件夹。
+
+## 5. 实验结论
+在金庸的小说中出现最频繁的单词为人名类（比如韦小宝、张无忌等）或单字类（比如道、他、我等），除此之外还有少数很常见的词组。这与我们的直观相符合。
+
+稍显意外的是，我们印象中代表金庸的武侠精神的词语（比如江湖、武侠、仁义等），没有一个入选前100个高频词。这也说明了人的主观能够记住频率稍低却更有意义的词，而不会完全受出现次数影响。
+
+## 6. 实验中遇到的问题及解决思路
 ### （1）权限问题
 
 在我们的实验中，执行启动、关闭HBase等敏感操作经常会遇到权限问题，即使我们每次都使用root用户执行命令，也可能遇到难以解决的权限问题。在单机系统下，可暴力地使用如下指令赋予HBase、Hive等文件夹高权限（读、写、执行），如
@@ -452,3 +517,17 @@ System.setProperty("hadoop.home.dir", "/home/hadoop/hadoop_installs/hadoop-2.9.2
         <value>98.5</value>
 </property>
 ```
+### (7)关于Hive
+从安装hive到成功运行第一条HiveQL指令中出现了不少问题，其中最诡异的两条都与配置文件hive-site.xml相关。
+
+第一个是每运行一条指令报大量Warning，严重影响有效信息的捕获。其内容为“Establishing SSL connenction without server's identity verification is not recommended”，搜索后发现原因为连接MySQL服务时默认useSSL参数为true，而我们并没有提供信任库。因此我们需要在配置里加上“useSSL=false”，Warning就解除了。
+
+第二个是初始化模式失败，报错为时区冲突，这也是一个少见的问题，经搜索后在配置文件中加入“serverTimezone=UTC”即可。
+
+```xml
+<property>
+    <name>javax.jdo.option.ConnectionURL</name>
+    <value>jdbc:mysql://localhost:3306/hive?serverTimezone=UTC&amp;createDatabaseIfNotExist=true&amp;useSSL=false</value>
+</property>
+```
+
