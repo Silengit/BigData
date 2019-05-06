@@ -33,8 +33,6 @@ HBase和Hive的安装与使用
 
 5. Hive安装完成后，在Hive Shell命令行操作创建表(表名:Wuxia(word STRING, count DOUBLE))、导入平均出现次数的数据、查询(出现次数大于300的词语)和 前100个出现次数最多的词。
 
-
-
 ## 3. HBase和Hive的安装与使用
 
 ### （1）HBase的安装
@@ -400,8 +398,10 @@ File outputfile = new File(outFileName);
 ```java
 Writer out = new FileWriter(outputfile);
 ```
-最后用Writer的write方法就能将字符写入到文本文件中了,
+最后用Writer的write方法就能将字符写入到File对象对应的文本文件中了,
 
+#### 3)代码使用指南
+因为这是一个单独的程序,所以处在单独的项目中,它会读取运行此项目的机器的hbase,并项目根目录生成一个文本文件作为输出文件,正确运行的前提是hbase中存在'Wuxia'这个表,并且有一个列族名为'Info',
 ### (4) 在Hive Shell命令行操作创建表、导入数据、执行查询操作
 #### 1) 进入Hive Shell并创建表
 在之前的hive安装部分我们提到了如何进入hive，进入之后在Hive Shell中使用HiveQL创建表，
@@ -468,6 +468,7 @@ MapReduce执行情况如下：
 稍显意外的是，我们印象中代表金庸的武侠精神的词语（比如江湖、武侠、仁义等），没有一个入选前100个高频词。这也说明了人的主观能够记住频率稍低却更有意义的词，而不会完全受出现次数影响。
 
 ## 6. 实验中遇到的问题及解决思路
+
 ### （1）权限问题
 
 在我们的实验中，执行启动、关闭HBase等敏感操作经常会遇到权限问题，即使我们每次都使用root用户执行命令，也可能遇到难以解决的权限问题。在单机系统下，可暴力地使用如下指令赋予HBase、Hive等文件夹高权限（读、写、执行），如
@@ -506,11 +507,12 @@ done
 System.setProperty("hadoop.home.dir", "/home/hadoop/hadoop_installs/hadoop-2.9.2/");
 ```
 ### (5) 在写hbase的java编程接口时,运行出现 Hadoop “Unable to load native-hadoop library for your platform” warning
-这是一个warning,意味着$HADOOP_HOME/lib/native/libhadoop.so.1.0.0包是32位环境编译的,报出这个warning 是因为我们通常在64机器上运行,实际上这个warning 不影响hadoop的功能,如果要解决的话可以下载相应的源代码在64位下编译即可
+
+这是一个warning,意味着$HADOOP_HOME/lib/native/libhadoop.so.1.0.0包是32位环境编译的,报出这个warning 是因为我们通常在64机器上运行,实际上这个warning 不影响hadoop的功能,如果要解决的话可以下载相应的源代码在64位环境下编译即可
 ### (6)在上面的环境中,出现了log4j:WARN No appends could be found for logger (org.apache.hadoop.metrics2.lib.MutableMetricsFactory)
 出现这个warn说明需要为log4j这个日志框架 传递配置信息,因为它可以默认读取java项目main/resources下的配置文件,log4j.xml和log4j.properties都可以,如此项目所示,我新建了log4j.properties,里面可以控制 日志的 输出格式和日志输出的最低条件等信息,
 ### (7)HADOOP在 running_job 处卡住
-经过查看日志,发现是namenode没有活动,即yarn在得到任务后并没有运行,原来是我的机器磁盘空间已经使用了90%,而yarn的磁盘使用警戒线就是90%,有两种办法,一个是清理磁盘,扩大可使用的空间,另一个是将yarn的磁盘使用上限调高,我用了后一种办法,配置文件yarn-site.xml中增加的配置项如下,将使用上线调到了98.5%: 
+经过查看日志,发现是namenode没有活动,即yarn在得到任务后并没有运行,原来是我的机器磁盘空间已经使用了90%,而yarn的磁盘使用警戒线就是90%,有两种办法,一个是清理磁盘,扩大可使用的空间,另一个是将yarn的磁盘使用上限调高,我用了后一种办法,配置文件yarn-site.xml中增加的配置项如下,将使用上限调到了98.5%: 
 ```xml
 <property>
         <name>yarn.nodemanager.disk-health-checker.max-disk-utilization-per-disk-percentage</name>
@@ -530,4 +532,10 @@ System.setProperty("hadoop.home.dir", "/home/hadoop/hadoop_installs/hadoop-2.9.2
     <value>jdbc:mysql://localhost:3306/hive?serverTimezone=UTC&amp;createDatabaseIfNotExist=true&amp;useSSL=false</value>
 </property>
 ```
+## 7.  实验分工
 
+| 姓名   |           分工   |
+| ------ | ----------------------------------- |
+| 陈昕元 |                                     |
+| 陈翔   |                                      |
+| 陈亚栋 | 编写java程序遍历hbase表,并把结果写入到文件中, 完成了与此相关的报告内容 |
