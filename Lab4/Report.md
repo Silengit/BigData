@@ -63,8 +63,7 @@ hbase version
 ```
 
 应可看到如下内容
-
-![hbase_1](picture\hbase_1.png)
+![hbase_1](picture/hbase_1.png)
 
 #### 	3) HBase配置文件设置
 
@@ -519,7 +518,7 @@ System.setProperty("hadoop.home.dir", "/home/hadoop/hadoop_installs/hadoop-2.9.2
         <value>98.5</value>
 </property>
 ```
-### (7)关于Hive
+### (8)关于Hive
 从安装hive到成功运行第一条HiveQL指令中出现了不少问题，其中最诡异的两条都与配置文件hive-site.xml相关。
 
 第一个是每运行一条指令报大量Warning，严重影响有效信息的捕获。其内容为“Establishing SSL connenction without server's identity verification is not recommended”，搜索后发现原因为连接MySQL服务时默认useSSL参数为true，而我们并没有提供信任库。因此我们需要在配置里加上“useSSL=false”，Warning就解除了。
@@ -536,6 +535,6 @@ System.setProperty("hadoop.home.dir", "/home/hadoop/hadoop_installs/hadoop-2.9.2
 
 | 姓名   |           分工   |
 | ------ | ----------------------------------- |
-| 陈昕元 |                                     |
-| 陈翔   |                                      |
+| 陈昕元 | 编写了HBase、Hive的安装教程；完成了将实验三中倒排索引程序改写成适配向HBase输入的MapReduce程序                              |
+| 陈翔   | 完成了Hive和MySQL的相关安装，并在Hive Shell中进行了建表、装载与查询操作 |
 | 陈亚栋 | 编写java程序遍历hbase表,并把结果写入到文件中, 完成了与此相关的报告内容 |
