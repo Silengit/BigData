@@ -63,6 +63,7 @@ hbase version
 ```
 
 应可看到如下内容
+
 ![hbase_1](picture/hbase_1.png)
 
 #### 	3) HBase配置文件设置
