@@ -26,6 +26,12 @@ import java.util.Enumeration;
 import java.util.Map;
 import java.util.Set;
 
+import org.ansj.splitWord.analysis.DicAnalysis;
+import org.ansj.splitWord.analysis.ToAnalysis;
+import org.ansj.library.DicLibrary;
+import org.ansj.app.keyword.Keyword;
+import org.ansj.domain.Result;
+import org.ansj.domain.Term;
 public class SegWord {
 
     // map class extend Mapper
@@ -34,148 +40,75 @@ public class SegWord {
 
         private static Text Key_word = new Text();
         private static IntWritable Value_int = new IntWritable();
-
+        
         // override map function
         @Override
         protected void map(Object key, Text value, Context content) throws IOException, InterruptedException {
-            // this ignore class can judge a element(String) wether or not be filter
-            Ignore ignore = new Ignore();
-
             FileSplit fileSplit = (FileSplit)content.getInputSplit();
             // Get the filename of files. According to requirements, we need remove the suffix from the filename
             String fileName = fileSplit.getPath().getName();
-            if(fileName.length() > 14) {
-                fileName = fileName.substring(0, fileName.length()-14);
-            }
 
-            //Count the frequency of words that appear in a line.
-            StringTokenizer itr = new StringTokenizer(value.toString());
-            while(itr.hasMoreTokens()){
-                String word = itr.nextToken();
-                if(ignore.contains(word)){  //  if an element is in ignore_set,it will be ignored,
-                    continue;
+            // 调用ansj库对 value 做分词,分词结果可从res中获得
+            Result res = DicAnalysis.parse(value.toString());
+            // 每一个 Term 保存一个分词结果
+            List<Term> termList = res.getTerms();
+
+            // Key_word.set(key.toString());
+            String wordkey = null;
+            for (Term item : termList) {
+                // 仅仅选择词性是“人名”的词,nr表示人名
+                if (item.getNatureStr().equals("nr")) {
+                    // content.write(Key_word, new Text(item.getName()));
+                    wordkey += (item.getName() + " ");
                 }
-
-                Key_word.set(word+","+fileName);
-                Value_int.set(1);
-                content.write(Key_word, Value_int);
             }
-        }
+            wordkey = wordkey.subSequence(0, wordkey.length() - 1).toString();
+            Value_int.set(Integer.parseInt(key.toString()));
+            Key_word.set(wordkey);
+            content.write(Key_word, Value_int);
+            // while(itr.hasMoreTokens()){
+            //     String word = itr.nextToken();
+            //     // if(ignore.contains(word)){  //  if an element is in ignore_set,it will be ignored,
+            //     //     continue;
+            //     // }
 
-        static class WordCount {
-            private String word;
-            private int count;
-
-            public WordCount() {
-                super();
-            }
-
-            public String getWord() {
-                return word;
-            }
-            public void setWord(String Word) {
-                this.word = Word;
-            }
-
-            public int getCount() {
-                return count;
-            }
-            public void setCount(int Count) {
-                this.count = Count;
-            }
-        }
-    }
-
-    // combine class extend Reducer, cause we need to combine same word in same file, and let them as one key
-    public static class Combiner extends Reducer<Text, IntWritable, Text, IntWritable> {
-
-        private IntWritable Value_int = new IntWritable();
-
-        @Override
-        protected void reduce(Text key, Iterable<IntWritable> values, Context context)
-            throws IOException, InterruptedException {
-
-            // Totally number of the word appear in a specific file
-            //Value_int.set(0);
-            int sum = 0;
-
-            for(IntWritable value : values)
-                sum += value.get();
-                //Value_int.set(Value_int.get() + value.get());
-
-            Value_int.set(sum);
-            context.write(key, Value_int);
-        }
-    }
-
-    // Change the key of patition, use default patition function
-    public static class WordPartition extends HashPartitioner<Text, Object> {
-
-        private static Text keyword = new Text();
-        @Override
-        public int getPartition(Text key, Object value, int numReduceTasks) {
-
-            keyword.set(key.toString().split(",")[0]);
-
-            return super.getPartition(keyword, value, numReduceTasks);
+            //     Key_word.set(word+","+fileName);
+            //     Value_int.set(1);
+            //     content.write(Key_word, Value_int);
+            // }
         }
     }
 
     public static class Reduce extends Reducer<Text, IntWritable, Text, Text> {
+        private static IntWritable Value_int = new IntWritable(0);
 
         private static Text Key_word = new Text();
-        private static Text textValue = new Text();
-
-        private static String curWord = null;
-        private static int appear_num = 0;
-        private static int file_num = 0;
         StringBuffer ValueText = new StringBuffer();
 
         @Override
         protected void reduce(Text key, Iterable<IntWritable> values, Context context) throws IOException, InterruptedException {
             // split word and filename
-            String[] source = key.toString().split(",");
-            String word = source[0];
-            String filename = source[1];
-
+            // String[] source = key.toString().split(",");
+            // String word = source[0];
+            // String filename = source[1];
             // when one word's calculate is end, calculate the average appear number.
-            if(curWord != null && (word.equals(curWord) == false)){
-                Key_word.set(curWord);
-                float average = (float) appear_num / file_num ;
-                textValue.set(average+","+ValueText.toString());
-                context.write(Key_word, textValue);
-
-                file_num = 0;
-                appear_num = 0;
-                ValueText.delete(0, ValueText.length());
+            Text colnum = new Text();
+            for (IntWritable value : values) {
+                colnum.set(value.toString());
             }
-
-            curWord = word;
-
-            int frequency = 0;
-            for(IntWritable value : values)
-                frequency += value.get();
-                file_num += 1;
-            appear_num += frequency;
-
-            if(file_num > 1) ValueText.append(";");
-
-            ValueText.append(filename+":"+frequency);
+            context.write(colnum, key);
         }
     }
 
     public static void main(String[] args) throws Exception {
 
         Configuration conf = new Configuration();
-        Job job = Job.getInstance(conf, "inverted index");
-        job.setJarByClass(InvertedIndexer.class);
+        Job job = Job.getInstance(conf, "segword");
+        job.setJarByClass(SegWord.class);
 
         job.setMapperClass(Map.class);
         job.setMapOutputKeyClass(Text.class);
         job.setMapOutputValueClass(IntWritable.class);
-
-        job.setCombinerClass(Combiner.class);
-        job.setPartitionerClass(WordPartition.class);
 
         job.setReducerClass(Reduce.class);
         job.setOutputKeyClass(Text.class);
