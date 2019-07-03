@@ -1,5 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.myschool.hadoop</groupId>
@@ -15,7 +15,29 @@
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
-
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-assembly-plugin</artifactId>
+        <version>2.2.1</version>
+        <configuration>
+          <descriptors>
+            <descriptor>src/main/assembly/assembly.xml</descriptor>
+          </descriptors>
+        </configuration>
+        <executions>
+          <execution>
+            <id>make-assembly</id>
+            <phase>package</phase>
+            <goals>
+              <goal>single</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
   <dependencies>
     <dependency>
       <groupId>org.apache.hadoop</groupId>
@@ -27,7 +49,7 @@
       <artifactId>hadoop-hdfs</artifactId>
       <version>2.7.1</version>
     </dependency>
-      <dependency>
+    <dependency>
       <groupId>org.apache.hadoop</groupId>
       <artifactId>hadoop-client</artifactId>
       <version>2.7.1</version>
@@ -38,10 +60,15 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
-		<dependency>
-			<groupId>org.ansj</groupId>
-			<artifactId>ansj_seg</artifactId>
-			<version>5.1.6</version>
-		</dependency>
+    <dependency>
+      <groupId>org.ansj</groupId>
+      <artifactId>ansj_seg</artifactId>
+      <version>5.1.6</version>
+    </dependency>
+    <dependency>
+      <groupId>org.nlpcn</groupId>
+      <artifactId>nlp-lang</artifactId>
+      <version>1.7.7</version>
+    </dependency>
   </dependencies>
 </project>

@@ -12,8 +12,11 @@ import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.input.FileSplit;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.mapreduce.lib.partition.HashPartitioner;
+import org.nlpcn.commons.lang.tire.domain.Forest;
+import org.nlpcn.commons.lang.tire.library.Library;
 
 import java.io.IOException;
+import java.io.InputStream;
 import java.util.StringTokenizer;
 
 import java.util.Enumeration;
@@ -40,32 +43,50 @@ public class SegWord {
 
         private static Text Key_word = new Text();
         private static IntWritable Value_int = new IntWritable();
+        private static Forest forest = new Forest();
         
+        @Override
+        protected void setup(Mapper<Object, Text, Text, IntWritable>.Context context)
+                throws IOException, InterruptedException {
+            super.setup(context);
+            try{
+                InputStream s = SegWord.class.getClassLoader().getResourceAsStream("library/result.dic");
+                forest = Library.makeForest(s);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
         // override map function
         @Override
         protected void map(Object key, Text value, Context content) throws IOException, InterruptedException {
             FileSplit fileSplit = (FileSplit)content.getInputSplit();
             // Get the filename of files. According to requirements, we need remove the suffix from the filename
-            String fileName = fileSplit.getPath().getName();
-
+            // String fileName = fileSplit.getPath().getName();
             // 调用ansj库对 value 做分词,分词结果可从res中获得
-            Result res = DicAnalysis.parse(value.toString());
+            Result res = DicAnalysis.parse(value.toString(),forest);
             // 每一个 Term 保存一个分词结果
             List<Term> termList = res.getTerms();
-
+            // try{
+            //     InputStream s = SegWord.class.getClassLoader().getResourceAsStream("library/result.dic");
+            //     forest = Library.makeForest(s);
+            // } catch (Exception e) {
+            //     e.printStackTrace();
+            // }
             // Key_word.set(key.toString());
-            String wordkey = null;
+            String wordkey = new String();
             for (Term item : termList) {
                 // 仅仅选择词性是“人名”的词,nr表示人名
-                if (item.getNatureStr().equals("nr")) {
+                if (item.getNatureStr().equals("nr") && item.getName().length() > 1) {
                     // content.write(Key_word, new Text(item.getName()));
                     wordkey += (item.getName() + " ");
                 }
             }
-            wordkey = wordkey.subSequence(0, wordkey.length() - 1).toString();
-            Value_int.set(Integer.parseInt(key.toString()));
-            Key_word.set(wordkey);
-            content.write(Key_word, Value_int);
+            if (wordkey.length() > 1) {
+                wordkey = wordkey.subSequence(0, wordkey.length() - 1).toString();
+                Value_int.set(Integer.parseInt(key.toString()));
+                Key_word.set(wordkey);
+                content.write(Key_word, Value_int); 
+            }
             // while(itr.hasMoreTokens()){
             //     String word = itr.nextToken();
             //     // if(ignore.contains(word)){  //  if an element is in ignore_set,it will be ignored,
