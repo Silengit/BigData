@@ -35,10 +35,13 @@ public class LabelPropagation {
             // FileSplit fileSplit = (FileSplit)content.getInputSplit();
             // Get the filename of files. According to requirements, we need remove the suffix from the filename
             // String fileName = fileSplit.getPath().getName();
-            
+
             // 获取 键 - 值,这里的值就是 "[孙悟空,0.3333 | 孙悟饭,0.33333]"
             String key_name = key.toString();
             String value_str = value.toString();
+
+            value_str = value_str.substring(1, value_str.length() - 1);
+
             // 将值中的各个出边所对应的节点取出来
             String out_point_list[] = value_str.split("\\|");
             for (String item : out_point_list) {
@@ -73,9 +76,6 @@ public class LabelPropagation {
     // map class extend Mapper
     public static class Map
         extends Mapper<Object, Text, Text, IntWritable> {
-
-        private static Text Key_word = new Text();
-        private static IntWritable Value_int = new IntWritable();
 
         // override map function
         @Override
