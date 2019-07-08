@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - justtest",
+            "request": "launch",
+            "mainClass": "com.myschool.hadoop.justtest",
+            "projectName": "hadoop"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SegWord",
+            "request": "launch",
+            "mainClass": "com.myschool.hadoop.SegWord",
+            "projectName": "hadoop"
+        }
+    ]
+}
