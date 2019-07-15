@@ -25,7 +25,7 @@ object WCPR {
     }
 
     def write2Txt(pr:Array[Double]) {
-        val writer = new PrintWriter(new File("scala_project/resource/output.txt"))
+        val writer = new PrintWriter(new File("Final(scala)/resource/output.txt"))
         var pair = new Array[(Double, String)](n)
         for( i <- 0 until n) 
             pair(i) = (pr(i), warray(i)._1)   
@@ -38,7 +38,7 @@ object WCPR {
     def main(args: Array[String]) {
 
         //**********word counting**********
-        val path = "scala_project/resource/input1.txt"
+        val path = "Final(scala)/resource/input1.txt"
         val spark = SparkSession.builder.appName("WCPR").getOrCreate()
         val sc = SparkContext.getOrCreate()
         val words = spark.read.textFile(path).collect.map(line => line.split("\\s+").distinct)

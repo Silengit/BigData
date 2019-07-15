@@ -24,7 +24,7 @@ object PageRank {
     }
 
     def write2Txt(pr:Array[Double]) {
-        val writer = new PrintWriter(new File("scala_project/resource/output.txt"))
+        val writer = new PrintWriter(new File("Final(scala)/resource/output3.txt"))
         var pair = new Array[(Double, String)](n)
         for( i <- 0 until n) 
             pair(i) = (pr(i), weight(i)._1)   
@@ -54,7 +54,7 @@ object PageRank {
 
     def main(args: Array[String]) {
         val spark = SparkSession.builder.appName("PageRank").getOrCreate()
-        weight = readFromTxt(spark, "scala_project/resource/input.txt")
+        weight = readFromTxt(spark, "Final(scala)/resource/input3.txt")
         n = weight.length
         var pr = Array.fill(n)( 1.0 )
         for( iter <- 0 until 50 ) {
