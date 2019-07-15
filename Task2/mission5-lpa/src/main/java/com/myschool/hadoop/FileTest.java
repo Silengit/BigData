@@ -1,6 +1,7 @@
 package com.myschool.hadoop;
 import java.util.HashMap;
 import java.util.Scanner;
+
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.FSDataInputStream;
 import org.apache.hadoop.fs.FSDataOutputStream;
@@ -15,7 +16,6 @@ public class FileTest {
         System.out.println("hello world!");
         FileSystem hdfs = FileSystem.get(conf);
         FileSystem result = FileSystem.get(conf);
-        // hdfs.create(new Path("cyd1.txt"));
         FSDataInputStream in = hdfs.open(new Path("cluster.txt"));
         FSDataOutputStream out = result.create(new Path("result.txt"));
         Scanner scan = new Scanner(in);
@@ -25,9 +25,8 @@ public class FileTest {
             // System.out.println(str);
             String tuple[] = str.split("\\s+");
             map.put(tuple[0], tuple[1]);
-            
-            // out.write((str + "hello 大家好" + "\n").getBytes());
         }
+        scan.close();
         for (String var : map.keySet()) {
             out.write((var + "\t" + 1 + "\n").getBytes());
         }

@@ -1,3 +1,4 @@
+com/myschool/hadoop/SegWordDriver.class
 com/myschool/hadoop/SegWord$Map.class
 com/myschool/hadoop/SegWord$Reduce.class
 com/myschool/hadoop/SegWord.class

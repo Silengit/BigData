@@ -1,44 +1,27 @@
 package com.myschool.hadoop;
 
-import org.apache.hadoop.conf.Configuration;
-import org.apache.hadoop.fs.Path;
-import org.apache.hadoop.io.IntWritable;
-import org.apache.hadoop.io.Text;
-
-import org.apache.hadoop.mapreduce.Job;
-import org.apache.hadoop.mapreduce.Mapper;
-import org.apache.hadoop.mapreduce.Reducer;
-import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
-import org.apache.hadoop.mapreduce.lib.input.FileSplit;
-import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
-import org.apache.hadoop.mapreduce.lib.partition.HashPartitioner;
-import org.nlpcn.commons.lang.tire.domain.Forest;
-import org.nlpcn.commons.lang.tire.library.Library;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.Reader;
-import java.util.StringTokenizer;
-
-import java.util.Enumeration;
-import java.util.HashMap;
 import java.util.HashSet;
-import java.util.Hashtable;
-import java.util.Vector;
 import java.util.List;
-import java.util.Iterator;
-import java.util.Enumeration;
-import java.util.Map;
-import java.util.Set;
 
-import org.ansj.splitWord.analysis.DicAnalysis;
-import org.ansj.splitWord.analysis.ToAnalysis;
-import org.ansj.library.DicLibrary;
-import org.ansj.app.keyword.Keyword;
 import org.ansj.domain.Result;
 import org.ansj.domain.Term;
+import org.ansj.splitWord.analysis.DicAnalysis;
+import org.apache.hadoop.conf.Configuration;
+import org.apache.hadoop.fs.Path;
+import org.apache.hadoop.io.IntWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Job;
+import org.apache.hadoop.mapreduce.Mapper;
+import org.apache.hadoop.mapreduce.Reducer;
+import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
+import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
+import org.nlpcn.commons.lang.tire.domain.Forest;
+import org.nlpcn.commons.lang.tire.library.Library;
 public class SegWord {
 
     // map class extend Mapper
@@ -73,9 +56,6 @@ public class SegWord {
         // override map function
         @Override
         protected void map(Object key, Text value, Context content) throws IOException, InterruptedException {
-            // FileSplit fileSplit = (FileSplit)content.getInputSplit();
-            // Get the filename of files. According to requirements, we need remove the suffix from the filename
-            // String fileName = fileSplit.getPath().getName();
             // 调用ansj库对 value 做分词,分词结果可从res中获得
             Result res = DicAnalysis.parse(value.toString(),forest);
             // 每一个 Term 保存一个分词结果
@@ -86,7 +66,6 @@ public class SegWord {
                 // 仅仅选择词性是“人名”的词,nr表示人名
                 if (item.getNatureStr().equals("nr") && item.getName().length() > 1
                         && Name_set.contains(item.getName())) {
-                    
                     // content.write(Key_word, new Text(item.getName()));
                     Name_value += (item.getName() + " ");
                 }
@@ -130,6 +109,6 @@ public class SegWord {
         FileInputFormat.addInputPath(job, new Path(args[0]));
         FileOutputFormat.setOutputPath(job, new Path(args[1]));
 
-        System.exit(job.waitForCompletion(true) ? 0 : 1);
+        job.waitForCompletion(true);
     }
 }
