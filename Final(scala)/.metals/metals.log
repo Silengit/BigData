@@ -1,0 +1,1501 @@
+INFO  time: initialize in 1.15s
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+INFO  no build target: using presentation compiler with only scala-library
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+Jul 05, 2019 5:05:40 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Jul 05, 2019 5:05:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 64
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+INFO  time: initialize in 0.75s
+INFO  skipping build import with status 'Requested'
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+INFO  no build target: using presentation compiler with only scala-library
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+Jul 05, 2019 6:14:28 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+something's wrong: no file:///home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala in Array[String]RangePosition(file:///home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala, 79, 79, 92)
+Jul 05, 2019 6:17:57 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Jul 05, 2019 6:17:57 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Jul 05, 2019 6:18:03 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Jul 05, 2019 6:18:04 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+something's wrong: no file:///home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala in Array[String]RangePosition(file:///home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala, 79, 79, 92)
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+Jul 05, 2019 6:23:48 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+Jul 05, 2019 6:26:10 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Jul 05, 2019 6:26:13 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+Jul 05, 2019 6:29:18 PM scala.meta.internal.pc.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.Completions$CompletionPosition$Override.<init>(Completions.scala:948)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe(Completions.scala:467)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe$(Completions.scala:387)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.Completions.completionPosition(Completions.scala:379)
+	at scala.meta.internal.pc.Completions.completionPosition$(Completions.scala:364)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:397)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:47)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:86)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:119)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:76)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:191)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:73)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Jul 05, 2019 6:29:19 PM scala.meta.internal.pc.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.Completions$CompletionPosition$Override.<init>(Completions.scala:948)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe(Completions.scala:467)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe$(Completions.scala:387)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.Completions.completionPosition(Completions.scala:379)
+	at scala.meta.internal.pc.Completions.completionPosition$(Completions.scala:364)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:397)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:47)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:86)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:119)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:76)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:191)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:73)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Jul 05, 2019 6:29:19 PM scala.meta.internal.pc.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.Completions$CompletionPosition$Override.<init>(Completions.scala:948)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe(Completions.scala:467)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe$(Completions.scala:387)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.Completions.completionPosition(Completions.scala:379)
+	at scala.meta.internal.pc.Completions.completionPosition$(Completions.scala:364)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:397)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:47)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:86)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:119)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:76)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:191)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:73)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Jul 05, 2019 6:29:19 PM scala.meta.internal.pc.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.Completions$CompletionPosition$Override.<init>(Completions.scala:948)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe(Completions.scala:467)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe$(Completions.scala:387)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.Completions.completionPosition(Completions.scala:379)
+	at scala.meta.internal.pc.Completions.completionPosition$(Completions.scala:364)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:397)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:47)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:86)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:119)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:76)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:191)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:73)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Jul 05, 2019 6:29:20 PM scala.meta.internal.pc.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.Completions$CompletionPosition$Override.<init>(Completions.scala:948)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe(Completions.scala:467)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe$(Completions.scala:387)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.Completions.completionPosition(Completions.scala:379)
+	at scala.meta.internal.pc.Completions.completionPosition$(Completions.scala:364)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:397)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:47)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:86)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:119)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:76)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:191)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:73)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Jul 05, 2019 6:29:20 PM scala.meta.internal.pc.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.Completions$CompletionPosition$Override.<init>(Completions.scala:948)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe(Completions.scala:467)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe$(Completions.scala:387)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.Completions.completionPosition(Completions.scala:379)
+	at scala.meta.internal.pc.Completions.completionPosition$(Completions.scala:364)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:397)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:47)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:86)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:119)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:76)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:191)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:73)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+Jul 05, 2019 6:29:22 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Jul 05, 2019 6:29:22 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: 
+  unexpected tree: class scala.reflect.internal.Trees$Template
+Double
+     while compiling: file:///home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+        during phase: globalPhase=<no phase>, enteringPhase=parser
+     library version: version 2.12.8
+    compiler version: version 2.12.8
+  reconstructed args: -classpath /home/hadoop/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.jar -Ypresentation-any-thread -Ymacro-expand:discard -Ycache-plugin-class-loader:last-modified
+
+  last tree to typer: Template
+       tree position: line 9 of file:///home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+              symbol: <none>
+   symbol definition: <none> (a NoSymbol)
+      symbol package: <none>
+       symbol owners: 
+           call site: <none> in <none>
+
+== Source file context for tree position ==
+
+     6     Array((0,0.33333),(1,0.33333),(3,0.33333)),
+     7     Array((0,0.25),(1,0.5),(2,0.25)))
+     8 
+     9     def look_for(a:Int, b:Int): Double {
+    10         for( i <- 0 until 3 ) {
+    11             if( weight(args(0))(i)._1 == args(1) )
+    12                 return weight(args(0))(i)._2
+scala.reflect.internal.FatalError: 
+  unexpected tree: class scala.reflect.internal.Trees$Template
+Double
+     while compiling: file:///home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+        during phase: globalPhase=<no phase>, enteringPhase=parser
+     library version: version 2.12.8
+    compiler version: version 2.12.8
+  reconstructed args: -classpath /home/hadoop/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.jar -Ypresentation-any-thread -Ymacro-expand:discard -Ycache-plugin-class-loader:last-modified
+
+  last tree to typer: Template
+       tree position: line 9 of file:///home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+              symbol: <none>
+   symbol definition: <none> (a NoSymbol)
+      symbol package: <none>
+       symbol owners: 
+           call site: <none> in <none>
+
+== Source file context for tree position ==
+
+     6     Array((0,0.33333),(1,0.33333),(3,0.33333)),
+     7     Array((0,0.25),(1,0.5),(2,0.25)))
+     8 
+     9     def look_for(a:Int, b:Int): Double {
+    10         for( i <- 0 until 3 ) {
+    11             if( weight(args(0))(i)._1 == args(1) )
+    12                 return weight(args(0))(i)._2
+	at scala.reflect.internal.Reporting.abort(Reporting.scala:68)
+	at scala.reflect.internal.Reporting.abort$(Reporting.scala:64)
+	at scala.reflect.internal.SymbolTable.abort(SymbolTable.scala:27)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedOutsidePatternMode$1(Typers.scala:5673)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5690)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5726)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedQualifier(Typers.scala:5810)
+	at scala.meta.internal.pc.PcDefinitionProvider.definitionTypedTreeAt(PcDefinitionProvider.scala:107)
+	at scala.meta.internal.pc.PcDefinitionProvider.definition(PcDefinitionProvider.scala:22)
+
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+Jul 05, 2019 6:29:22 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Jul 05, 2019 6:29:22 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: 
+  unexpected tree: class scala.reflect.internal.Trees$Template
+Double
+     while compiling: file:///home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+        during phase: globalPhase=<no phase>, enteringPhase=parser
+     library version: version 2.12.8
+    compiler version: version 2.12.8
+  reconstructed args: -classpath /home/hadoop/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.jar -Ypresentation-any-thread -Ymacro-expand:discard -Ycache-plugin-class-loader:last-modified
+
+  last tree to typer: Template
+       tree position: line 9 of file:///home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+              symbol: <none>
+   symbol definition: <none> (a NoSymbol)
+      symbol package: <none>
+       symbol owners: 
+           call site: <none> in <none>
+
+== Source file context for tree position ==
+
+     6     Array((0,0.33333),(1,0.33333),(3,0.33333)),
+     7     Array((0,0.25),(1,0.5),(2,0.25)))
+     8 
+     9     def look_for(a:Int, b:Int): Double {
+    10         for( i <- 0 until 3 ) {
+    11             if( weight(args(0))(i)._1 == args(1) )
+    12                 return weight(args(0))(i)._2
+scala.reflect.internal.FatalError: 
+  unexpected tree: class scala.reflect.internal.Trees$Template
+Double
+     while compiling: file:///home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+        during phase: globalPhase=<no phase>, enteringPhase=parser
+     library version: version 2.12.8
+    compiler version: version 2.12.8
+  reconstructed args: -classpath /home/hadoop/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.jar -Ypresentation-any-thread -Ymacro-expand:discard -Ycache-plugin-class-loader:last-modified
+
+  last tree to typer: Template
+       tree position: line 9 of file:///home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+              symbol: <none>
+   symbol definition: <none> (a NoSymbol)
+      symbol package: <none>
+       symbol owners: 
+           call site: <none> in <none>
+
+== Source file context for tree position ==
+
+     6     Array((0,0.33333),(1,0.33333),(3,0.33333)),
+     7     Array((0,0.25),(1,0.5),(2,0.25)))
+     8 
+     9     def look_for(a:Int, b:Int): Double {
+    10         for( i <- 0 until 3 ) {
+    11             if( weight(args(0))(i)._1 == args(1) )
+    12                 return weight(args(0))(i)._2
+	at scala.reflect.internal.Reporting.abort(Reporting.scala:68)
+	at scala.reflect.internal.Reporting.abort$(Reporting.scala:64)
+	at scala.reflect.internal.SymbolTable.abort(SymbolTable.scala:27)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedOutsidePatternMode$1(Typers.scala:5673)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5690)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5726)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedQualifier(Typers.scala:5810)
+	at scala.meta.internal.pc.PcDefinitionProvider.definitionTypedTreeAt(PcDefinitionProvider.scala:107)
+	at scala.meta.internal.pc.PcDefinitionProvider.definition(PcDefinitionProvider.scala:22)
+
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+Jul 05, 2019 7:19:08 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+something's wrong: no file:///home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala in Array[String]RangePosition(file:///home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala, 959, 959, 972)
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+Jul 05, 2019 7:25:29 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Jul 05, 2019 7:25:31 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Jul 05, 2019 7:25:40 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Jul 05, 2019 7:25:50 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Jul 05, 2019 7:25:52 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+Jul 05, 2019 7:25:54 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Jul 05, 2019 7:26:01 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Jul 05, 2019 7:26:01 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Jul 05, 2019 7:26:04 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Jul 05, 2019 7:26:07 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Jul 05, 2019 7:26:15 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+Jul 05, 2019 7:27:26 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Jul 05, 2019 7:27:26 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Jul 05, 2019 7:27:31 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+something's wrong: no file:///home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala in Array[Int]RangePosition(file:///home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala, 582, 582, 592)
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+Jul 05, 2019 7:34:25 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+Jul 05, 2019 7:35:15 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.Completions$CompletionPosition$Arg.$anonfun$baseParams$1(Completions.scala:880)
+	at scala.Option.getOrElse(Option.scala:138)
+	at scala.meta.internal.pc.Completions$CompletionPosition$Arg.baseParams$lzycompute(Completions.scala:880)
+	at scala.meta.internal.pc.Completions$CompletionPosition$Arg.baseParams(Completions.scala:876)
+	at scala.meta.internal.pc.Completions$CompletionPosition$Arg.params$lzycompute(Completions.scala:894)
+	at scala.meta.internal.pc.Completions$CompletionPosition$Arg.params(Completions.scala:892)
+	at scala.meta.internal.pc.Completions$CompletionPosition$Arg.contribute(Completions.scala:925)
+	at scala.meta.internal.pc.CompletionProvider.expected$1(CompletionProvider.scala:361)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:420)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:47)
+
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+Jul 05, 2019 7:35:18 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+Jul 05, 2019 7:37:04 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+Jul 05, 2019 7:38:03 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+INFO  time: initialize in 0.76s
+INFO  skipping build import with status 'Requested'
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+INFO  no build target: using presentation compiler with only scala-library
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+Jul 09, 2019 10:41:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 24
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+Jul 09, 2019 10:52:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 130
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+Jul 09, 2019 11:23:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 288
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+Exception in thread "pool-9-thread-1" scala.meta.internal.metals.ControlCancellationException
+Caused by: java.util.concurrent.CancellationException
+	at scala.meta.internal.metals.ControlCancellationException$.$lessinit$greater$default$1(ControlCancellationException.scala:10)
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:20)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:189)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:73)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+Jul 10, 2019 12:15:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1321
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+Jul 10, 2019 12:15:40 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+INFO  shutting down Metals
+INFO  time: initialize in 0.5s
+INFO  skipping build import with status 'Requested'
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+Jul 13, 2019 12:15:18 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+INFO  no build target: using presentation compiler with only scala-library
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+Jul 13, 2019 12:22:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 101
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+INFO  shutting down Metals
+INFO  time: initialize in 0.35s
+INFO  skipping build import with status 'Requested'
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+INFO  no build target: using presentation compiler with only scala-library
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+Jul 13, 2019 1:58:19 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:37)
+
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+Jul 13, 2019 2:46:42 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Jul 13, 2019 2:46:43 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Jul 13, 2019 2:46:43 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+something's wrong: no file:///home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala in Array[(String, Double)]RangePosition(file:///home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala, 154, 154, 177)
+something's wrong: no file:///home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala in Array[(String, Double)]RangePosition(file:///home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala, 154, 154, 177)
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+something's wrong: no file:///home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala in (String, <error>)RangePosition(file:///home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala, 145, 145, 186)
+something's wrong: no file:///home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala in (String, <error>)RangePosition(file:///home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala, 145, 145, 186)
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+Jul 15, 2019 12:30:05 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+Jul 15, 2019 12:34:15 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Jul 15, 2019 12:34:20 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+Jul 15, 2019 12:36:39 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+Jul 15, 2019 12:57:48 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Jul 15, 2019 12:57:48 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+Jul 15, 2019 1:04:46 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+something's wrong: no file:///home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala in Array[String]RangePosition(file:///home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala, 659, 659, 672)
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+Jul 15, 2019 1:06:27 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+Jul 15, 2019 1:07:16 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:37)
+
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+Jul 15, 2019 1:08:36 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:37)
+
+something's wrong: no file:///home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala in (String, Array[(String, Double)])RangePosition(file:///home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala, 212, 212, 245)
+something's wrong: no file:///home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala in Array[(String, Array[(String, Double)])]RangePosition(file:///home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala, 206, 206, 246)
+something's wrong: no file:///home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala in (String, Array[(String, Double)])RangePosition(file:///home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala, 212, 212, 245)
+something's wrong: no file:///home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala in Array[(String, Array[(String, Double)])]RangePosition(file:///home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala, 206, 206, 246)
+something's wrong: no file:///home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala in Array[(String, Array[(String, Double)])]RangePosition(file:///home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala, 206, 206, 246)
+something's wrong: no file:///home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala in (String, Array[(String, Double)])RangePosition(file:///home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala, 212, 212, 245)
+something's wrong: no file:///home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala in Array[(String, Double)]RangePosition(file:///home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala, 221, 221, 244)
+something's wrong: no file:///home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala in Array[(String, Double)]RangePosition(file:///home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala, 221, 221, 244)
+something's wrong: no file:///home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala in Array[(String, Double)]RangePosition(file:///home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala, 221, 221, 244)
+something's wrong: no file:///home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala in (String, Double)RangePosition(file:///home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala, 227, 227, 243)
+something's wrong: no file:///home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala in (String, Array[(String, Double)])RangePosition(file:///home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala, 212, 212, 245)
+something's wrong: no file:///home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala in Array[(String, Array[(String, Double)])]RangePosition(file:///home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala, 206, 206, 246)
+Jul 15, 2019 1:09:42 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:37)
+
+Jul 15, 2019 1:09:42 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:37)
+
+Jul 15, 2019 1:09:43 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:37)
+
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+Jul 15, 2019 1:32:08 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:37)
+
+Jul 15, 2019 1:32:09 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:37)
+
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+Jul 15, 2019 1:51:23 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: String index out of range: -1
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+Jul 15, 2019 1:55:45 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+Jul 15, 2019 1:56:27 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: String index out of range: -1
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+Jul 15, 2019 1:56:29 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Jul 15, 2019 1:56:30 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+Jul 15, 2019 1:56:41 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+Jul 15, 2019 1:56:41 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Jul 15, 2019 1:56:43 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Jul 15, 2019 1:56:43 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+Jul 15, 2019 1:57:25 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Jul 15, 2019 1:57:26 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Jul 15, 2019 1:57:38 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Jul 15, 2019 1:57:45 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Jul 15, 2019 1:57:46 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+Jul 15, 2019 1:58:09 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WordCo.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WCPR.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WCPR.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WCPR.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WCPR.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WCPR.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WCPR.scala
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WCPR.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/hadoop/Workspace/scala_project/src/main/scala/WCPR.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WCPR.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WCPR.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WCPR.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/WCPR.scala
+INFO  shutting down Metals

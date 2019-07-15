@@ -1,0 +1,6 @@
+#FileLock
+#Mon Jul 15 14:32:24 CST 2019
+hostName=ubuntu
+id=16bf45513975d4f82f18352ac36bf950f03f74cd406
+method=file
+server=127.0.1.1\:42725
