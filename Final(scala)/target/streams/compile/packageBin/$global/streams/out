@@ -1,4 +1,4 @@
-[0m[[0m[0minfo[0m] [0m[0mPackaging /home/hadoop/Workspace/BigData/Final(scala)/target/scala-2.11/pagerank-project_2.11-1.0.jar ...[0m
+[0m[[0m[0minfo[0m] [0m[0mPackaging /home/hadoop/Workspace/BigData/Final(scala)/target/scala-2.11/wcpr_2.11-1.0.jar ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	PageRank$$anonfun$weightOf$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/hadoop/Workspace/BigData/Final(scala)/target/scala-2.11/classes/PageRank$$anonfun$weightOf$1.class[0m
@@ -78,8 +78,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/hadoop/Workspace/BigData/Final(scala)/target/scala-2.11/classes/WCPR$$anonfun$8.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	PageRank$$anonfun$main$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/hadoop/Workspace/BigData/Final(scala)/target/scala-2.11/classes/PageRank$$anonfun$main$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	WCPR$$anonfun$13.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /home/hadoop/Workspace/BigData/Final(scala)/target/scala-2.11/classes/WCPR$$anonfun$13.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	WCPR$$anonfun$main$1$$anonfun$4.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/hadoop/Workspace/BigData/Final(scala)/target/scala-2.11/classes/WCPR$$anonfun$main$1$$anonfun$4.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	WCPR$.class[0m

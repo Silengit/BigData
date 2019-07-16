@@ -2,12 +2,12 @@
 <?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
 <ivy-report version="1.0">
 	<info
-		organisation="pagerank-project"
-		module="pagerank-project_2.11"
+		organisation="wcpr"
+		module="wcpr_2.11"
 		revision="1.0"
-		conf="provided"
+		conf="optional"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20190715144625"/>
+		date="20190716113619"/>
 	<dependencies>
 	</dependencies>
 </ivy-report>

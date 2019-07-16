@@ -4,6 +4,7 @@ import java.io._
 object PageRank {
     var weight = new Array[(String, Array[(String, Double)])](100)
     var n = 0
+    var times = 10
 
     def readFromTxt(s:SparkSession, f:String): Array[(String, Array[(String, Double)])] = {
         val line = s.read.textFile(f).collect
@@ -30,7 +31,7 @@ object PageRank {
             pair(i) = (pr(i), weight(i)._1)   
         val result = pair.sortBy(r => r._1)(Ordering.Double.reverse)
         for( i <- 0 until n) 
-            writer.write(result(i)._1 + "\t" + result(i)._2 + "\n")
+            writer.write(result(i)._1+"\n")
         writer.close()   
     }
 
@@ -56,8 +57,9 @@ object PageRank {
         val spark = SparkSession.builder.appName("PageRank").getOrCreate()
         weight = readFromTxt(spark, "Final(scala)/resource/input3.txt")
         n = weight.length
+        times = args(0).toInt
         var pr = Array.fill(n)( 1.0 )
-        for( iter <- 0 until 50 ) {
+        for( iter <- 0 until times ) {
             var tmp = Array.fill(n)( 1.0 )
             val oldPR = pr
             for( i <- 0 until n ) 

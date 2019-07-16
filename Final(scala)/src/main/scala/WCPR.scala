@@ -5,6 +5,7 @@ import scala.collection.mutable
 object WCPR {
 
     val warray = new mutable.ArrayBuffer[(String, Array[(String, Double)])]()
+    var times = 10
     var n = 0
 
     def name2Idx(b:String): Int = {
@@ -28,7 +29,7 @@ object WCPR {
         val writer = new PrintWriter(new File("Final(scala)/resource/output.txt"))
         var pair = new Array[(Double, String)](n)
         for( i <- 0 until n) 
-            pair(i) = (pr(i), warray(i)._1)   
+            pair(i) = (pr(i), warray(i)._1)  
         val result = pair.sortBy(r => r._1)(Ordering.Double.reverse)
         for( i <- 0 until n) 
             writer.write(result(i)._1 + "\t" + result(i)._2 + "\n")
@@ -52,13 +53,12 @@ object WCPR {
         }.flatMap(x => x).flatMap(x => List(x,(x._2,x._1)))
         val rdd = sc.parallelize(coTerm)
         val results = rdd.map(w => (w,1)).reduceByKey({case(x,y) => x+y})
-        // results.coalesce(1).saveAsTextFile("scala_project/resource/output1")
+        //results.coalesce(1).saveAsTextFile("Final(scala)/resource/output1")
 
         //**********graph building**********
         val sum = results.map(w => (w._1._1,w._2)).reduceByKey({case(x,y) => x+y}).collectAsMap()
-        val weight = results.map(w => (w._1, w._2.toDouble/sum(w._1._1))).map(
-            w => (w._1._1,(w._1._2,w._2))).groupByKey()
-        //weight.coalesce(1).saveAsTextFile("scala_project/resource/output2")
+        val weight = results.map(w => (w._1._1, (w._1._2, w._2.toDouble/sum(w._1._1)))).groupByKey()
+        //weight.coalesce(1).saveAsTextFile("Final(scala)/resource/output2")
 
         //**********page ranking**********
         //RDD => Array
@@ -76,9 +76,9 @@ object WCPR {
         //Initialize PageRank
         n = warray.length
         var pr = Array.fill(n)( 1.0 )
-
+        times = args(0).toInt
         //Iterate computing PageRank
-        for( iter <- 0 until 50 ) {
+        for( iter <- 0 until times ) {
             var tmp = Array.fill(n)( 1.0 )
             val oldPR = pr
             for( i <- 0 until n ) 
