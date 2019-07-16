@@ -116,3 +116,7 @@ WARN  no build target: /home/hadoop/Workspace/BigData/Final(scala)/src/main/scal
 WARN  no build target: /home/hadoop/Workspace/BigData/Final(scala)/src/main/scala/PageRank.scala
 WARN  no build target: /home/hadoop/Workspace/BigData/Final(scala)/build.sbt
 WARN  no build target: /home/hadoop/Workspace/BigData/Final(scala)/build.sbt
+INFO  shutting down Metals
+INFO  time: initialize in 0.37s
+WARN  no build tool detected in workspace '/home/hadoop/Workspace/BigData'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: /home/hadoop/Workspace/BigData/Final(scala)/src/main/scala/WCPR.scala
