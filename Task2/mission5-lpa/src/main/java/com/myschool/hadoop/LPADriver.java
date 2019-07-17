@@ -39,9 +39,9 @@ public class LPADriver {
                 forItr[2] = args[1] + "/iter" + (i - 1) + "/part-r-00000";
             }
 
-            System.out.println("arg0 = " + forItr[0]);
-            System.out.println("arg1 = " + forItr[1]);
-            System.out.println("arg2 = " + forItr[2]);
+            System.out.println("inputPath = " + forItr[0]);
+            System.out.println("outputPath = " + forItr[1]);
+            System.out.println("cluster = " + forItr[2]);
             System.out.println();
             LabelPropagation.main(forItr);
 

@@ -55,8 +55,8 @@ public class LabelPropagation {
         protected void map(Text key, Text value, Context context) throws IOException, InterruptedException {  
             String key_name = key.toString();
             String value_name = value.toString();
-            String value_list[] = value_name.substring(1, value_name.length() - 1).split("\\|");
-
+            String value_list[] = value_name.split("\\s+")[1].split("\\|");
+            //"大圣 孙悟空,0.333|孙悟饭,0.23"
             // 只有被测试姓名在姓名表中的情况下，才做记录
             if (cluster_map.keySet().contains(key_name)) {
                 HashMap<String,Double> tempmap = new HashMap<String,Double>();
