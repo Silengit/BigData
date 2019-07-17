@@ -1,0 +1,258 @@
+INFO  time: initialize in 0.84s
+WARN  no build tool detected in workspace '/home/hadoop/Workspace/scala_project/src/main/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+INFO  no build target: using presentation compiler with only scala-library
+WARN  no build tool detected in workspace '/home/hadoop/Workspace/scala_project/src/main/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build tool detected in workspace '/home/hadoop/Workspace/scala_project/src/main/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+Jul 09, 2019 4:02:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 352
+WARN  no build tool detected in workspace '/home/hadoop/Workspace/scala_project/src/main/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build tool detected in workspace '/home/hadoop/Workspace/scala_project/src/main/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+INFO  time: initialize in 0.91s
+WARN  no build tool detected in workspace '/home/hadoop/Workspace/scala_project/src/main/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+INFO  no build target: using presentation compiler with only scala-library
+INFO  time: initialize in 0.84s
+WARN  no build tool detected in workspace '/home/hadoop/Workspace/scala_project/src/main/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+INFO  no build target: using presentation compiler with only scala-library
+Jul 09, 2019 4:20:02 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:37)
+
+Jul 09, 2019 4:20:03 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:37)
+
+WARN  no build tool detected in workspace '/home/hadoop/Workspace/scala_project/src/main/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/home/hadoop/Workspace/scala_project/src/main/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/home/hadoop/Workspace/scala_project/src/main/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build tool detected in workspace '/home/hadoop/Workspace/scala_project/src/main/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/home/hadoop/Workspace/scala_project/src/main/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/home/hadoop/Workspace/scala_project/src/main/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/home/hadoop/Workspace/scala_project/src/main/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build tool detected in workspace '/home/hadoop/Workspace/scala_project/src/main/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/home/hadoop/Workspace/scala_project/src/main/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build tool detected in workspace '/home/hadoop/Workspace/scala_project/src/main/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+INFO  time: initialize in 1.03s
+WARN  no build tool detected in workspace '/home/hadoop/Workspace/scala_project/src/main/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+INFO  no build target: using presentation compiler with only scala-library
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build tool detected in workspace '/home/hadoop/Workspace/scala_project/src/main/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/home/hadoop/Workspace/scala_project/src/main/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+Jul 09, 2019 4:24:20 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.Completions$CompletionPosition$Arg.$anonfun$baseParams$1(Completions.scala:880)
+	at scala.Option.getOrElse(Option.scala:138)
+	at scala.meta.internal.pc.Completions$CompletionPosition$Arg.baseParams$lzycompute(Completions.scala:880)
+	at scala.meta.internal.pc.Completions$CompletionPosition$Arg.baseParams(Completions.scala:876)
+	at scala.meta.internal.pc.Completions$CompletionPosition$Arg.params$lzycompute(Completions.scala:894)
+	at scala.meta.internal.pc.Completions$CompletionPosition$Arg.params(Completions.scala:892)
+	at scala.meta.internal.pc.Completions$CompletionPosition$Arg.contribute(Completions.scala:925)
+	at scala.meta.internal.pc.CompletionProvider.expected$1(CompletionProvider.scala:361)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:420)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:47)
+
+Jul 09, 2019 4:24:21 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.Completions$CompletionPosition$Arg.$anonfun$baseParams$1(Completions.scala:880)
+	at scala.Option.getOrElse(Option.scala:138)
+	at scala.meta.internal.pc.Completions$CompletionPosition$Arg.baseParams$lzycompute(Completions.scala:880)
+	at scala.meta.internal.pc.Completions$CompletionPosition$Arg.baseParams(Completions.scala:876)
+	at scala.meta.internal.pc.Completions$CompletionPosition$Arg.params$lzycompute(Completions.scala:894)
+	at scala.meta.internal.pc.Completions$CompletionPosition$Arg.params(Completions.scala:892)
+	at scala.meta.internal.pc.Completions$CompletionPosition$Arg.contribute(Completions.scala:925)
+	at scala.meta.internal.pc.CompletionProvider.expected$1(CompletionProvider.scala:361)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:420)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:47)
+
+Jul 09, 2019 4:24:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 135
+                                                                                          INFO  time: initialize in 0.86s
+WARN  no build tool detected in workspace '/home/hadoop/Workspace/scala_project/src/main/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+INFO  no build target: using presentation compiler with only scala-library
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build tool detected in workspace '/home/hadoop/Workspace/scala_project/src/main/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build tool detected in workspace '/home/hadoop/Workspace/scala_project/src/main/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/home/hadoop/Workspace/scala_project/src/main/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build tool detected in workspace '/home/hadoop/Workspace/scala_project/src/main/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build tool detected in workspace '/home/hadoop/Workspace/scala_project/src/main/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/home/hadoop/Workspace/scala_project/src/main/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build tool detected in workspace '/home/hadoop/Workspace/scala_project/src/main/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+something's wrong: no file:///home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala in (String, Array[(String, Double)])RangePosition(file:///home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala, 399, 399, 431)
+something's wrong: no file:///home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala in (String, Double)RangePosition(file:///home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala, 414, 414, 430)
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+Jul 09, 2019 4:43:50 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build tool detected in workspace '/home/hadoop/Workspace/scala_project/src/main/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/home/hadoop/Workspace/scala_project/src/main/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build tool detected in workspace '/home/hadoop/Workspace/scala_project/src/main/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build tool detected in workspace '/home/hadoop/Workspace/scala_project/src/main/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+Jul 09, 2019 4:50:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 359
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build tool detected in workspace '/home/hadoop/Workspace/scala_project/src/main/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build tool detected in workspace '/home/hadoop/Workspace/scala_project/src/main/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build tool detected in workspace '/home/hadoop/Workspace/scala_project/src/main/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build tool detected in workspace '/home/hadoop/Workspace/scala_project/src/main/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/home/hadoop/Workspace/scala_project/src/main/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/home/hadoop/Workspace/scala_project/src/main/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/home/hadoop/Workspace/scala_project/src/main/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+Jul 09, 2019 5:04:50 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Jul 09, 2019 5:04:55 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: String index out of range: -1
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.<init>(String.java:196)
+	at scala.tools.nsc.interactive.Global.typeCompletions$1(Global.scala:1230)
+	at scala.tools.nsc.interactive.Global.completionsAt(Global.scala:1253)
+	at scala.meta.internal.pc.SignatureHelpProvider.$anonfun$treeSymbol$1(SignatureHelpProvider.scala:359)
+	at scala.Option.map(Option.scala:163)
+	at scala.meta.internal.pc.SignatureHelpProvider.treeSymbol(SignatureHelpProvider.scala:358)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCall$.unapply(SignatureHelpProvider.scala:197)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.visit(SignatureHelpProvider.scala:305)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:300)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.fromTree(SignatureHelpProvider.scala:269)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:26)
+
+WARN  no build tool detected in workspace '/home/hadoop/Workspace/scala_project/src/main/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/home/hadoop/Workspace/scala_project/src/main/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build tool detected in workspace '/home/hadoop/Workspace/scala_project/src/main/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/home/hadoop/Workspace/scala_project/src/main/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/home/hadoop/Workspace/scala_project/src/main/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build tool detected in workspace '/home/hadoop/Workspace/scala_project/src/main/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/home/hadoop/Workspace/scala_project/src/main/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build tool detected in workspace '/home/hadoop/Workspace/scala_project/src/main/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build tool detected in workspace '/home/hadoop/Workspace/scala_project/src/main/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+Jul 09, 2019 5:08:44 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  no build tool detected in workspace '/home/hadoop/Workspace/scala_project/src/main/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/home/hadoop/Workspace/scala_project/src/main/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build tool detected in workspace '/home/hadoop/Workspace/scala_project/src/main/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+Jul 09, 2019 5:09:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 776
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build tool detected in workspace '/home/hadoop/Workspace/scala_project/src/main/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/home/hadoop/Workspace/scala_project/src/main/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/home/hadoop/Workspace/scala_project/src/main/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+Jul 09, 2019 5:10:47 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Jul 09, 2019 5:11:46 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Jul 09, 2019 5:11:55 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Jul 09, 2019 5:11:56 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  no build tool detected in workspace '/home/hadoop/Workspace/scala_project/src/main/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/home/hadoop/Workspace/scala_project/src/main/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+Jul 09, 2019 5:12:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 891
+WARN  no build tool detected in workspace '/home/hadoop/Workspace/scala_project/src/main/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build tool detected in workspace '/home/hadoop/Workspace/scala_project/src/main/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+WARN  no build tool detected in workspace '/home/hadoop/Workspace/scala_project/src/main/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+INFO  shutting down Metals
+INFO  time: initialize in 0.71s
+WARN  no build tool detected in workspace '/home/hadoop/Workspace/scala_project/src/main/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+INFO  no build target: using presentation compiler with only scala-library
+WARN  no build target: /home/hadoop/Workspace/scala_project/src/main/scala/PageRank.scala
+INFO  shutting down Metals
