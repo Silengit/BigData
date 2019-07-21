@@ -4,7 +4,7 @@
 
 **运行方法**  
 1. 编译命令  
-进入项目目录:
+进入项目目录(即Final(scala-mvn)/)后:
 ```shell
 mvn clean package
 ```
@@ -13,7 +13,7 @@ mvn clean package
 ```shell
 spark-submit --class nju.LPA cyd-1.0-SNAPSHOT.jar <inputPath> <outputPath> <cluster> <cycle_time>
 ```
-下面是参数的解释:
+下面是参数的解释(和mapreduce的lpa实现相同):
 1. inputPath: 任务三的输出结果
 2. outputPath: 本次任务的输出路径
 3. cluster: 初始聚类信息,需要将hadoop版本的Lpa项目的resources下的result.txt上传到集群上，并将其路径作为cluster

@@ -1,5 +1,5 @@
 # 程序运行方式
-# 任务一：分词算法的实现
+## 任务一：分词算法的实现
 **源代码的内容如下**
 1. SegWord.java: 对单个文件的分词
 2. SegWordDriver.java: 配置文件路径，通过调用“SegWord”完成多个文件的单独分词
@@ -40,7 +40,7 @@ hdfs dfs -cat Task4outputFinalRank/part-r-00000
 
 来查看运行结果。
 
-# 任务五：标签传播算法的实现
+## 任务五：标签传播算法的实现
 **源代码的内容如下**
 1. LabelPropagation.java: lpa算法的单次迭代实现
 2. LPADriver.java: 配置文件路径，通过调用“单次迭代的实现”完成多次迭代
@@ -77,3 +77,23 @@ hadoop jar hadoop-1.0-SNAPSHOT.jar com.myschool.hadoop.LPADriver <inputPath> <ou
 其中最后的数字表示迭代次数。
 
 3. 输出文件output.txt在Final\(scala\)/resource目录下。
+## 附加任务 spark (Task5)
+**源代码的内容如下**
+1. LPA.scala: 包含了lpa和lpa结果整理的代码
+
+**运行方法**  
+1. 编译命令  
+进入项目目录(即Final(scala-mvn)/)后:
+```shell
+mvn clean package
+```
+2. spark上的执行命令  
+
+```shell
+spark-submit --class nju.LPA cyd-1.0-SNAPSHOT.jar <inputPath> <outputPath> <cluster> <cycle_time>
+```
+下面是参数的解释(和mapreduce的lpa实现相同):
+1. inputPath: 任务三的输出结果
+2. outputPath: 本次任务的输出路径
+3. cluster: 初始聚类信息,需要将hadoop版本的Lpa项目的resources下的result.txt上传到集群上，并将其路径作为cluster
+4. cycle_time: 迭代次数
