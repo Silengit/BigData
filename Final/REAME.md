@@ -71,7 +71,7 @@ hadoop jar hadoop-1.0-SNAPSHOT.jar com.myschool.hadoop.LPADriver <inputPath> <ou
 2. 输入指令
 
 ```shell
-~/Workspace/spark-2.4.3-bin-hadoop2.7/bin/spark-submit --class "WCPR" --master local[4] Final\(scala\)/target/scala-2.11/wcpr_2.11-1.0.jar 10
+"your spark directory"/bin/spark-submit --class "WCPR" --master local[4] Final\(scala\)/target/scala-2.11/wcpr_2.11-1.0.jar 10
 ```
 
 其中最后的数字表示迭代次数。
