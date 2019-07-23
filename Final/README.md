@@ -63,6 +63,7 @@ hadoop jar hadoop-1.0-SNAPSHOT.jar com.myschool.hadoop.LPADriver <inputPath> <ou
 3. cluster: 初始聚类信息,需要将本项目的resources下的result.txt上传到集群上，并将其路径作为cluster
 4. cycle_time: 迭代次数
 
+输入指令例如: hadoop jar hadoop-1.0-SNAPSHOT.jar com.myschool.hadoop.LPADriver novels output cluster.txt 100  
 在本任务的输出目录中，将会输出每一次迭代的结果并保存在iterN中，如第3次迭代的结果在iter3中，另外每10次迭代将会运行一次聚类结果的整理，也就是运行Archievement.java中的函数，结果的存放于archievementN中，
 ## 附加任务 spark（Task2-4）
 
