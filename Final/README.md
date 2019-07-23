@@ -1,5 +1,5 @@
 # 程序运行方式
-## 任务一：分词算法的实现
+## 任务1 分词算法的实现
 **源代码的内容如下**
 1. SegWord.java: 对单个文件的分词
 2. SegWordDriver.java: 配置文件路径，通过调用“SegWord”完成多个文件的单独分词
@@ -19,6 +19,43 @@ hadoop jar hadoop-1.0-SNAPSHOT.jar com.myschool.hadoop.SegWordDriver <inputPath>
 1. inputPath: 未分词过的金庸小说
 2. outputPath: 本次任务的输出路径
 
+## 任务2 任务同现统计的实现
+**源代码的内容如下**
+1. CoOccurrence.java: 对人物分词后的结果，统计两个人物在同一段中出现的次数
+
+**运行方法**  
+1. 编译命令  
+进入项目目录:
+```shell
+mvn clean package
+```
+2. hadoop上的执行命令  
+
+```shell
+hadoop jar hadoop-1.0-SNAPSHOT.jar com.myschool.hadoop.CoOccurrence <inputPath> <outputPath>
+```
+下面是参数的解释:
+1. inputPath: 任务1阶段的输出文件
+2. outputPath: 本次任务的输出路径
+
+## 任务3 人物关系图构建与特征归一化
+**源代码的内容如下**
+1. Normalization.java: 对人物同现次数统计后的结果，输出小说集中的每个人物及与其有关的人物，并给出两两人物之间边的权重
+
+**运行方法**  
+1. 编译命令  
+进入项目目录:
+```shell
+mvn clean package
+```
+2. hadoop上的执行命令  
+
+```shell
+hadoop jar hadoop-1.0-SNAPSHOT.jar com.myschool.hadoop.Normalization <inputPath> <outputPath>
+```
+下面是参数的解释:
+1. inputPath: 任务2阶段的输出文件
+2. outputPath: 本次任务的输出路径
 
 ## 任务4 PageRank
 
