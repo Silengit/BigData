@@ -135,3 +135,7 @@ spark-submit --class nju.LPA cyd-1.0-SNAPSHOT.jar <inputPath> <outputPath> <clus
 2. outputPath: 本次任务的输出路径
 3. cluster: 初始聚类信息,需要将hadoop版本的Lpa项目的resources下的result.txt上传到集群上，并将其路径作为cluster
 4. cycle_time: 迭代次数
+
+# Gephi图展示
+- 目录下graph.gephi是Gephi图文件，效果图展示在报告中有给出。
+- 目录下Gephi展示.wmv展示了人物图的构建及收敛全过程。
